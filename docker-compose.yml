@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  gestionexamen:
+    image: isabella19/gestionexamen:latest
+    ports:
+      - "5000:5000"
